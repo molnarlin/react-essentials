@@ -1,12 +1,10 @@
 import "./App.css";
-import HooksCounter from "./components/HooksCounter";
-import ClassCounter from "./components/ClassCounter";
+import UseStateWithArrays from "./components/UseStateWithArrays";
 
 function App() {
   return <div className="App">
-      <HooksCounter />
-      <ClassCounter />
-    </div>;
+     <UseStateWithArrays /> 
+  </div>;
 }
 
 export default App;
